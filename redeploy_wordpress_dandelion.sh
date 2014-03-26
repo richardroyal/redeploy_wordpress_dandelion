@@ -51,5 +51,5 @@ dandelion deploy
 
 # Cleanup
 echo "DROP DATABASE $RNAME;" | mysql -u $LOCAL_MYSQL_USER -p$LOCAL_MYSQL_PW
-cd STARTING_DIR
+cd $STARTING_DIR
 rm -rf tmp/
