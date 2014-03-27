@@ -11,7 +11,7 @@ This allows you to easily re-deploy a fresh copy of the project files directly o
 ### Usage
 
 ```sh
-./redeploy_wordpress_dandelion www.example.com example_coms_git_repo
+./redeploy_wordpress_dandelion.sh www.example.com example_coms_git_repo
 ```
 
 First argument is the root folder name on the server. The production folder should be under the root folder.
@@ -21,9 +21,9 @@ This allows mass redeployment in the event of a breach.
 
 ```sh
 # batch.sh
-./redeploy_wordpress_dandelion www.example1.com example1_coms_git_repo
-./redeploy_wordpress_dandelion www.example2.com example2_coms_git_repo
-./redeploy_wordpress_dandelion www.example3.com example3_coms_git_repo
+./redeploy_wordpress_dandelion.sh www.example1.com example1_coms_git_repo
+./redeploy_wordpress_dandelion.sh www.example2.com example2_coms_git_repo
+./redeploy_wordpress_dandelion.sh www.example3.com example3_coms_git_repo
 .
 .
 .
